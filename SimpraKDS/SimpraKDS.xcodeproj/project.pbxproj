@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF5DF3D728646868007356AF /* SimpraKDSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5DF3D628646868007356AF /* SimpraKDSApp.swift */; };
+		CF5DF3D928646868007356AF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5DF3D828646868007356AF /* ContentView.swift */; };
+		CF5DF3DB28646868007356AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF5DF3DA28646868007356AF /* Assets.xcassets */; };
+		CF5DF3DE28646868007356AF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF5DF3DD28646868007356AF /* Preview Assets.xcassets */; };
+		CF5DF3E62864688A007356AF /* Apollo in Frameworks */ = {isa = PBXBuildFile; productRef = CF5DF3E52864688A007356AF /* Apollo */; };
+		CF5DF3E82864688A007356AF /* ApolloWebSocket in Frameworks */ = {isa = PBXBuildFile; productRef = CF5DF3E72864688A007356AF /* ApolloWebSocket */; };
+		CF5DF3EE28646F2F007356AF /* LoginRequest.graphql in Resources */ = {isa = PBXBuildFile; fileRef = CF5DF3ED28646F2F007356AF /* LoginRequest.graphql */; };
+		CF5DF3F028646F6E007356AF /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5DF3EF28646F6E007356AF /* API.swift */; };
+		CF5DF3F228646FB1007356AF /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5DF3F128646FB1007356AF /* Network.swift */; };
+		CF5DF3F528647425007356AF /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = CF5DF3F428647425007356AF /* Realm */; };
+		CF5DF3F728647425007356AF /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = CF5DF3F628647425007356AF /* RealmSwift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CF5DF3D328646868007356AF /* SimpraKDS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpraKDS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF5DF3D628646868007356AF /* SimpraKDSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpraKDSApp.swift; sourceTree = "<group>"; };
+		CF5DF3D828646868007356AF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CF5DF3DA28646868007356AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF5DF3DD28646868007356AF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CF5DF3EA28646EDD007356AF /* schema.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = schema.json; sourceTree = "<group>"; };
+		CF5DF3ED28646F2F007356AF /* LoginRequest.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = LoginRequest.graphql; sourceTree = "<group>"; };
+		CF5DF3EF28646F6E007356AF /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		CF5DF3F128646FB1007356AF /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF5DF3D028646868007356AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF5DF3F728647425007356AF /* RealmSwift in Frameworks */,
+				CF5DF3F528647425007356AF /* Realm in Frameworks */,
+				CF5DF3E62864688A007356AF /* Apollo in Frameworks */,
+				CF5DF3E82864688A007356AF /* ApolloWebSocket in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF5DF3CA28646868007356AF = {
+			isa = PBXGroup;
+			children = (
+				CF5DF3D528646868007356AF /* SimpraKDS */,
+				CF5DF3D428646868007356AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF5DF3D428646868007356AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF5DF3D328646868007356AF /* SimpraKDS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF5DF3D528646868007356AF /* SimpraKDS */ = {
+			isa = PBXGroup;
+			children = (
+				CF5DF3D628646868007356AF /* SimpraKDSApp.swift */,
+				CF5DF3EA28646EDD007356AF /* schema.json */,
+				CF5DF3EF28646F6E007356AF /* API.swift */,
+				CF5DF3ED28646F2F007356AF /* LoginRequest.graphql */,
+				CF5DF3D828646868007356AF /* ContentView.swift */,
+				CF5DF3F128646FB1007356AF /* Network.swift */,
+				CF5DF3DA28646868007356AF /* Assets.xcassets */,
+				CF5DF3DC28646868007356AF /* Preview Content */,
+			);
+			path = SimpraKDS;
+			sourceTree = "<group>";
+		};
+		CF5DF3DC28646868007356AF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CF5DF3DD28646868007356AF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF5DF3D228646868007356AF /* SimpraKDS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF5DF3E128646868007356AF /* Build configuration list for PBXNativeTarget "SimpraKDS" */;
+			buildPhases = (
+				CF5DF3E928646E25007356AF /* Apollo */,
+				CF5DF3CF28646868007356AF /* Sources */,
+				CF5DF3D028646868007356AF /* Frameworks */,
+				CF5DF3D128646868007356AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpraKDS;
+			packageProductDependencies = (
+				CF5DF3E52864688A007356AF /* Apollo */,
+				CF5DF3E72864688A007356AF /* ApolloWebSocket */,
+				CF5DF3F428647425007356AF /* Realm */,
+				CF5DF3F628647425007356AF /* RealmSwift */,
+			);
+			productName = SimpraKDS;
+			productReference = CF5DF3D328646868007356AF /* SimpraKDS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF5DF3CB28646868007356AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					CF5DF3D228646868007356AF = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = CF5DF3CE28646868007356AF /* Build configuration list for PBXProject "SimpraKDS" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF5DF3CA28646868007356AF;
+			packageReferences = (
+				CF5DF3E42864688A007356AF /* XCRemoteSwiftPackageReference "apollo-ios" */,
+				CF5DF3F328647425007356AF /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
+			productRefGroup = CF5DF3D428646868007356AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF5DF3D228646868007356AF /* SimpraKDS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF5DF3D128646868007356AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF5DF3EE28646F2F007356AF /* LoginRequest.graphql in Resources */,
+				CF5DF3DE28646868007356AF /* Preview Assets.xcassets in Resources */,
+				CF5DF3DB28646868007356AF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CF5DF3E928646E25007356AF /* Apollo */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = Apollo;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Don't run this during index builds\nif [ $ACTION = \"indexbuild\" ]; then exit 0; fi\n\n# Go to the build root and search up the chain to find the Derived Data Path where the source packages are checked out.\nDERIVED_DATA_CANDIDATE=\"${BUILD_ROOT}\"\n\nwhile ! [ -d \"${DERIVED_DATA_CANDIDATE}/SourcePackages\" ]; do\n  if [ \"${DERIVED_DATA_CANDIDATE}\" = / ]; then\n    echo >&2 \"error: Unable to locate SourcePackages directory from BUILD_ROOT: '${BUILD_ROOT}'\"\n    exit 1\n  fi\n\n  DERIVED_DATA_CANDIDATE=\"$(dirname \"${DERIVED_DATA_CANDIDATE}\")\"\ndone\n\n# Grab a reference to the directory where scripts are checked out\nSCRIPT_PATH=\"${DERIVED_DATA_CANDIDATE}/SourcePackages/checkouts/apollo-ios/scripts\"\n\nif [ -z \"${SCRIPT_PATH}\" ]; then\n    echo >&2 \"error: Couldn't find the CLI script in your checked out SPM packages; make sure to add the framework to your project.\"\n    exit 1\nfi\n\ncd \"${SRCROOT}/${TARGET_NAME}\"\n\"${SCRIPT_PATH}\"/run-bundled-codegen.sh codegen:generate --target=swift --includes=./**/*.graphql --localSchemaFile=\"schema.json\" API.swift\n\n#\"${SCRIPT_PATH}\"/run-bundled-codegen.sh schema:download --endpoint=\"https://api-qa.simprapos.com/graphql\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF5DF3CF28646868007356AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF5DF3D928646868007356AF /* ContentView.swift in Sources */,
+				CF5DF3F028646F6E007356AF /* API.swift in Sources */,
+				CF5DF3F228646FB1007356AF /* Network.swift in Sources */,
+				CF5DF3D728646868007356AF /* SimpraKDSApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CF5DF3DF28646868007356AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CF5DF3E028646868007356AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF5DF3E228646868007356AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SimpraKDS/Preview Content\"";
+				DEVELOPMENT_TEAM = 8M557HYHDX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ebubekirsezer.SimpraKDS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF5DF3E328646868007356AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SimpraKDS/Preview Content\"";
+				DEVELOPMENT_TEAM = 8M557HYHDX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ebubekirsezer.SimpraKDS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF5DF3CE28646868007356AF /* Build configuration list for PBXProject "SimpraKDS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF5DF3DF28646868007356AF /* Debug */,
+				CF5DF3E028646868007356AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF5DF3E128646868007356AF /* Build configuration list for PBXNativeTarget "SimpraKDS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF5DF3E228646868007356AF /* Debug */,
+				CF5DF3E328646868007356AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CF5DF3E42864688A007356AF /* XCRemoteSwiftPackageReference "apollo-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apollographql/apollo-ios.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		CF5DF3F328647425007356AF /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CF5DF3E52864688A007356AF /* Apollo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CF5DF3E42864688A007356AF /* XCRemoteSwiftPackageReference "apollo-ios" */;
+			productName = Apollo;
+		};
+		CF5DF3E72864688A007356AF /* ApolloWebSocket */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CF5DF3E42864688A007356AF /* XCRemoteSwiftPackageReference "apollo-ios" */;
+			productName = ApolloWebSocket;
+		};
+		CF5DF3F428647425007356AF /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CF5DF3F328647425007356AF /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		CF5DF3F628647425007356AF /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CF5DF3F328647425007356AF /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = CF5DF3CB28646868007356AF /* Project object */;
+}

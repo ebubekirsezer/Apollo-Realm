@@ -1,0 +1,7 @@
+mutation User_login($input: UserLoginInput!) {
+  user_login(input: $input) {
+	user {
+	  first_name
+	}
+  }
+}
